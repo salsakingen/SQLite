@@ -1,57 +1,55 @@
-SELECT s.name,
-       i.Name,
+PRAGMA foreign_keys = ON;
+
+
+SELECT s.Name AS Supplier,
+       i.Name AS Ingredient,
        si.ArticleNumber,
        si.PriceKG
 FROM supplier_ingredient si
-JOIN supplier s ON si.SupplierId= s.id
-JOIN ingredient i ON si.IngredientId = i.id
+JOIN supplier s ON s.id = si.SupplierId
+JOIN ingredient i ON i.id = si.IngredientId
 ORDER BY s.Name;
 
 
-
-SELECT p.name,
-       i.name,
-       pi.AmountKg
-FROM recipe_item pi
-JOIN product p ON pi.ProductId = p.id
-JOIN ingredient i ON pi.IngredientId = i.id
-ORDER BY p.Name;
-
-SELECT s.name,
-       i.name,
-       si.PriceKG
-FROM supplier_ingredient si 
-JOIN supplier s ON si.SupplierId = s.id
-JOIN ingredient i ON si.IngredientId = i.id
-ORDER BY s.Name;
-
-
-SELECT p.name,
-       i.name,
+SELECT p.Name AS Product,
+       i.Name AS Ingredient,
        ri.AmountKg
-FROM recipe_item ri  
-JOIN product p ON ri.ProductId = p.id
-JOIN ingredient i ON ri.IngredientId = i.id
+FROM recipe_item ri
+JOIN product p ON p.id = ri.ProductId
+JOIN ingredient i ON i.id = ri.IngredientId
 ORDER BY p.Name;
 
 
-SELECT DISTINCT 
-        p.Name,
-       s.Name
+SELECT DISTINCT p.Name AS Product,
+                s.Name AS Supplier
 FROM product p
-JOIN recipe_item         ri ON ri.ProductId     = p.id
-JOIN ingredient          i  ON i.id             = ri.IngredientId
-JOIN supplier_ingredient si ON si.IngredientId  = i.id
-JOIN supplier            s  ON s.id             = si.SupplierId
+JOIN recipe_item ri ON ri.ProductId = p.id
+JOIN supplier_ingredient si ON si.IngredientId = ri.IngredientId
+JOIN supplier s  ON s.id = si.SupplierId
 ORDER BY p.Name;
 
-SELECT i.Name,
+
+SELECT pu.PurchaseDate,
+       s.Name AS Supplier,
+       i.Name AS Ingredient,
+       pi.QuantityKg,
+       pi.PriceKg
+FROM purchase_item pi
+JOIN purchase pu ON pu.id = pi.PurchaseId
+JOIN supplier s  ON s.id  = pu.SupplierId
+JOIN ingredient i ON i.id  = pi.IngredientId
+ORDER BY pu.PurchaseDate;
+
+
+SELECT i.Name AS Ingredient,
        i.StockKg,
-       s.Name, 
+       s.Name AS Supplier,
        s.PhoneNumber
 FROM ingredient i
 JOIN supplier_ingredient si ON si.IngredientId = i.id
-JOIN supplier            s  ON s.id            = si.SupplierId
+JOIN supplier s  ON s.id = si.SupplierId
 WHERE i.StockKg < 10
 ORDER BY i.StockKg;
 
+
+INSERT INTO purchase (SupplierId, PurchaseDate) VALUES (99, '2026-11-10');

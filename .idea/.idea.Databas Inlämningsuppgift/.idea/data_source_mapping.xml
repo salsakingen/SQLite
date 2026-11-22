@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/Databas Inlämningsuppgift.sln" value="1e1acb8a-4628-4de1-84e6-1b8082a9221d" />
+    <file url="file://$PROJECT_DIR$/Databas Inlämningsuppgift/sql/create_tables.sql" value="1e1acb8a-4628-4de1-84e6-1b8082a9221d" />
+    <file url="file://$PROJECT_DIR$/Databas Inlämningsuppgift/sql/insert_testdata.sql" value="1e1acb8a-4628-4de1-84e6-1b8082a9221d" />
+    <file url="file://$PROJECT_DIR$/Databas Inlämningsuppgift/sql/test_queries.sql" value="1e1acb8a-4628-4de1-84e6-1b8082a9221d" />
+  </component>
+</project>

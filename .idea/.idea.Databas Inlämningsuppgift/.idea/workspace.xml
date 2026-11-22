@@ -8,25 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f974cd3f-72e2-4c0a-871c-48b993af72da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Databas Inlämningsuppgift/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Databas Inlämningsuppgift/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Databas Inlämningsuppgift/.idea/dataSources/1e1acb8a-4628-4de1-84e6-1b8082a9221d.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Databas Inlämningsuppgift/.idea/dataSources/1e1acb8a-4628-4de1-84e6-1b8082a9221d/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Databas Inlämningsuppgift/.idea/dataSources/49dddbdc-0127-4c41-a17e-52497333d7f2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Databas Inlämningsuppgift/.idea/dataSources/49dddbdc-0127-4c41-a17e-52497333d7f2/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Databas Inlämningsuppgift/.idea/dataSources/data_sources_history.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Databas Inlämningsuppgift/.idea/data_source_mapping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Databas Inlämningsuppgift/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Databas Inlämningsuppgift/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Databas Inlämningsuppgift/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Databas Inlämningsuppgift/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Databas Inlämningsuppgift/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bager.db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databas Inlämningsuppgift/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Databas Inlämningsuppgift/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Databas Inlämningsuppgift/.idea/dataSources/1e1acb8a-4628-4de1-84e6-1b8082a9221d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Databas Inlämningsuppgift/.idea/dataSources/1e1acb8a-4628-4de1-84e6-1b8082a9221d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Databas Inlämningsuppgift/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Databas Inlämningsuppgift/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Databas Inlämningsuppgift/sql/create_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Databas Inlämningsuppgift/sql/create_tables.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databas Inlämningsuppgift/sql/insert_testdata.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Databas Inlämningsuppgift/sql/insert_testdata.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Databas Inlämningsuppgift/sql/test_queries.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Databas Inlämningsuppgift/sql/test_queries.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/identifier.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +34,7 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/salsakingen/SQLInl-mning.git",
+    "url": "https://github.com/salsakingen/SQLite.git",
     "accountId": "ee199f32-ca47-410d-ba6e-8d47c1a075f5"
   }
 }]]></component>
@@ -59,61 +44,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0698304461295138" />
-      <entry key="MS500" value="1.5872309856068267" />
-      <entry key="S2" value="1.8754034892929132" />
-      <entry key="S5" value="1.9885195110674143" />
-      <entry key="S10" value="2.579074822199745" />
-      <entry key="S30" value="7.966012104408943" />
-      <entry key="S60" value="22.44003078226507" />
-      <entry key="M2" value="47.75934288068194" />
-      <entry key="M5" value="80.73648782474511" />
-      <entry key="M10" value="99.94476707479608" />
-      <entry key="M15" value="110.59697577721057" />
-      <entry key="M30" value="131.32733582919724" />
-      <entry key="H1" value="157.59719794918996" />
-      <entry key="H2" value="184.054662598646" />
-      <entry key="H4" value="204.03559423475352" />
-      <entry key="D1" value="284.7495378996542" />
-      <entry key="W1" value="777.6065465803362" />
+      <entry key="MS100" value="1.9534709466857003" />
+      <entry key="MS500" value="3.314355007394962" />
+      <entry key="S2" value="4.5642273429166345" />
+      <entry key="S5" value="5.652663589353484" />
+      <entry key="S10" value="6.242565746052224" />
+      <entry key="S30" value="8.054297174644866" />
+      <entry key="S60" value="14.242660661496432" />
+      <entry key="M2" value="25.786365577113386" />
+      <entry key="M5" value="49.9544342687152" />
+      <entry key="M10" value="85.6392002011383" />
+      <entry key="M15" value="115.63214423068774" />
+      <entry key="M30" value="175.82110898724628" />
+      <entry key="H1" value="237.48503695504186" />
+      <entry key="H2" value="290.919925736283" />
+      <entry key="H4" value="329.2088391029298" />
+      <entry key="D1" value="428.3329811523729" />
+      <entry key="W1" value="924.6859331571962" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.9360545349469975E-273" />
-      <entry key="S5" value="8.950070427226826E-110" />
-      <entry key="S10" value="4.120310927161338E-55" />
-      <entry key="S30" value="1.850250428592513E-18" />
-      <entry key="S60" value="3.577182820917696E-9" />
-      <entry key="M2" value="1.8557690452955674E-4" />
-      <entry key="M5" value="0.14051272123139516" />
-      <entry key="M10" value="1.369883770920732" />
-      <entry key="M15" value="3.0659513808902688" />
-      <entry key="M30" value="8.019364988236392" />
-      <entry key="H1" value="15.687733310549536" />
-      <entry key="H2" value="23.92503485729967" />
-      <entry key="H4" value="30.29288442515553" />
-      <entry key="D1" value="48.805055350786624" />
-      <entry key="W1" value="132.08575287693046" />
+      <entry key="MS500" value="2.5288038775470807E-244" />
+      <entry key="S2" value="1.2610397811869058E-61" />
+      <entry key="S5" value="4.36808936530678E-25" />
+      <entry key="S10" value="6.609152264327688E-13" />
+      <entry key="S30" value="8.710610326883409E-5" />
+      <entry key="S60" value="0.009333065052212696" />
+      <entry key="M2" value="0.09660779136546904" />
+      <entry key="M5" value="0.39395824504974214" />
+      <entry key="M10" value="0.7588327415989725" />
+      <entry key="M15" value="1.3773705246988088" />
+      <entry key="M30" value="4.534241476348441" />
+      <entry key="H1" value="11.549996007048803" />
+      <entry key="H2" value="20.651346103881018" />
+      <entry key="H4" value="28.46169293197724" />
+      <entry key="D1" value="49.01579212114382" />
+      <entry key="W1" value="132.77927233048644" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.14940573476823132" />
-      <entry key="MS500" value="1.16746151054622" />
-      <entry key="S2" value="1.7465060964322972" />
-      <entry key="S5" value="1.9346097039498114" />
-      <entry key="S10" value="2.5512662064776355" />
-      <entry key="S30" value="7.953578991274884" />
-      <entry key="S60" value="22.428982272555224" />
-      <entry key="M2" value="47.75022697654841" />
-      <entry key="M5" value="80.870897475058" />
-      <entry key="M10" value="101.30848538148317" />
-      <entry key="M15" value="113.65613733362821" />
-      <entry key="M30" value="139.33863657324014" />
-      <entry key="H1" value="173.27633533018653" />
-      <entry key="H2" value="207.97267033994754" />
-      <entry key="H4" value="234.3238644916668" />
-      <entry key="D1" value="333.5532777428626" />
-      <entry key="W1" value="909.6917960281403" />
+      <entry key="MS100" value="1.8812773069792768" />
+      <entry key="MS500" value="3.2501979047539558" />
+      <entry key="S2" value="4.540909833958963" />
+      <entry key="S5" value="5.642283495163074" />
+      <entry key="S10" value="6.237146734624182" />
+      <entry key="S30" value="8.052308807879506" />
+      <entry key="S60" value="14.250352679458285" />
+      <entry key="M2" value="25.880964961462848" />
+      <entry key="M5" value="50.345956301182845" />
+      <entry key="M10" value="86.39542368333923" />
+      <entry key="M15" value="117.00644005339775" />
+      <entry key="M30" value="180.3506258890298" />
+      <entry key="H1" value="249.02863510365307" />
+      <entry key="H2" value="311.5651829623697" />
+      <entry key="H4" value="357.66618856918905" />
+      <entry key="D1" value="477.3474520069985" />
+      <entry key="W1" value="1057.4646993585814" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -193,7 +178,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

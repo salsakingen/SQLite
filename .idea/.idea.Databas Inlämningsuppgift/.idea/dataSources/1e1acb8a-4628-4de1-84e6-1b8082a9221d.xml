@@ -568,7 +568,7 @@
     </routine>
     <schema id="214" parent="1" name="main">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2026-11-22.14:42:05</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2026-11-22.14:52:17</LastIntrospectionLocalTimestamp>
     </schema>
     <argument id="215" parent="14">
       <ArgumentDirection>R</ArgumentDirection>
@@ -1827,9 +1827,10 @@
     <column id="637" parent="627" name="Name">
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StoredType>VARCHAR(20)|0s</StoredType>
+      <StoredType>VARCHAR(50)|0s</StoredType>
     </column>
     <column id="638" parent="627" name="StockKg">
+      <NotNull>1</NotNull>
       <Position>3</Position>
       <StoredType>REAL|0s</StoredType>
     </column>
@@ -1845,12 +1846,12 @@
     <column id="641" parent="628" name="Name">
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StoredType>VARCHAR(20)|0s</StoredType>
+      <StoredType>VARCHAR(50)|0s</StoredType>
     </column>
     <column id="642" parent="628" name="Category">
       <NotNull>1</NotNull>
       <Position>3</Position>
-      <StoredType>VARCHAR(10)|0s</StoredType>
+      <StoredType>VARCHAR(30)|0s</StoredType>
     </column>
     <key id="643" parent="628">
       <ColNames>id</ColNames>
@@ -1867,6 +1868,7 @@
       <StoredType>INTEGER|0s</StoredType>
     </column>
     <column id="646" parent="629" name="PurchaseDate">
+      <NotNull>1</NotNull>
       <Position>3</Position>
       <StoredType>VARCHAR(10)|0s</StoredType>
     </column>
@@ -1924,12 +1926,12 @@ IngredientId</ColNames>
     <column id="657" parent="631" name="ProductId">
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StoredType>INTEGER(10)|0s</StoredType>
+      <StoredType>INTEGER|0s</StoredType>
     </column>
     <column id="658" parent="631" name="IngredientId">
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StoredType>INTEGER(30)|0s</StoredType>
+      <StoredType>INTEGER|0s</StoredType>
     </column>
     <column id="659" parent="631" name="AmountKg">
       <NotNull>1</NotNull>
@@ -1992,7 +1994,7 @@ IngredientId</ColNames>
     <column id="672" parent="634" name="Name">
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StoredType>VARCHAR(20)|0s</StoredType>
+      <StoredType>VARCHAR(50)|0s</StoredType>
     </column>
     <column id="673" parent="634" name="Address">
       <NotNull>1</NotNull>

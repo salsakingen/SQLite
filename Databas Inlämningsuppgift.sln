@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Databas Inlämningsuppgift", "Databas Inlämningsuppgift\Databas Inlämningsuppgift.csproj", "{10182A45-E3CA-46B8-87AB-0E88DB771EBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10182A45-E3CA-46B8-87AB-0E88DB771EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10182A45-E3CA-46B8-87AB-0E88DB771EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10182A45-E3CA-46B8-87AB-0E88DB771EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10182A45-E3CA-46B8-87AB-0E88DB771EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

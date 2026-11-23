@@ -1,9 +1,19 @@
 PRAGMA foreign_keys = ON;
 
-INSERT INTO supplier (Name, Address, Contact, PhoneNumber, Email) VALUES
-('Kvarnen AB',    'Mjölvägen 1, Malmö', 'Anna Svensson', '040-123456', 'anna@kvarnen.se'),        
-('Mejeriet Syd',  'Mjölkgatan 5, Lund', 'Erik Larsson',  '046-654321', 'erik@mejerietsyd.se'),    
-('Sockerbolaget', 'Sötvägen 12, Arlöv', 'Lisa Berg',     '040-987654', 'lisa@sockerbolaget.se');  
+
+INSERT INTO city (Name) VALUES
+('Malmö'),
+('Lund');
+
+INSERT INTO postal_code (PostalCode, CityId) VALUES 
+('21122',1),
+('21225',1),
+('22350',2);
+
+INSERT INTO supplier (Name,Street, PostalCodeId, Contact, PhoneNumber, Email) VALUES
+('Kvarnen AB',    'Mjölvägen 1', 1,  'Anna Svensson', '040-123456', 'anna@kvarnen.se'),        
+('Mejeriet Syd',  'Mjölkgatan 5',3, 'Erik Larsson',  '046-654321', 'erik@mejerietsyd.se'),    
+('Sockerbolaget', 'Sötvägen 12',2, 'Lisa Berg',     '040-987654', 'lisa@sockerbolaget.se');  
 
 INSERT INTO ingredient (Name, StockKg) VALUES
 ('Vetemjöl', 120),  

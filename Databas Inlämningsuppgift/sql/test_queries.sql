@@ -1,15 +1,28 @@
 PRAGMA foreign_keys = ON;
 
 
+SELECT * FROM supplier;
+
+SELECT s.Name AS Supplier,
+       s.Street,
+       pc.PostalCode,
+       c.name as City,
+       s.Contact,
+       s.PhoneNumber,
+       s.Email
+FROM supplier s
+JOIN postal_code pc ON pc.id = s.PostalCodeId
+JOIN city c ON c.id = pc.CityId
+ORDER BY s.Name;
+
 SELECT s.Name AS Supplier,
        i.Name AS Ingredient,
        si.ArticleNumber,
        si.PriceKG
 FROM supplier_ingredient si
-JOIN supplier s ON s.id = si.SupplierId
+JOIN supplier   s ON s.id = si.SupplierId
 JOIN ingredient i ON i.id = si.IngredientId
 ORDER BY s.Name;
-
 
 SELECT p.Name AS Product,
        i.Name AS Ingredient,
